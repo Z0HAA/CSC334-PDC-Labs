@@ -1,0 +1,47 @@
+# -------------------------------------------------------------------
+# PDC Lab Assignments .gitignore
+# For Parallel and Distributed Computing (PDC) Labs
+# -------------------------------------------------------------------
+
+# 1. PYTHON / IPYTHON NOTEBOOK (COLAB) FILES
+# Ignore Python compilation files
+__pycache__/
+*.pyc
+
+# Ignore virtual environments
+.venv
+venv/
+env/
+
+# Ignore Jupyter/Colab checkpoints and autosaves
+.ipynb_checkpoints
+
+# 2. DOCUMENT/REPORT FILES
+# Word/Office temporary and lock files
+# These are generated when the document is open and should NOT be committed.
+~$*.docx
+~$*.doc
+~$*.xlsx
+~$*.pptx
+*.tmp
+
+# 3. OPERATING SYSTEM / EDITOR FILES
+# Ignore macOS files
+.DS_Store
+
+# Ignore Windows Thumbs
+Thumbs.db
+
+# Ignore Visual Studio Code files (if you edit the README locally)
+.vscode/
+
+# 4. EXPLICITLY IGNORE OUTPUT/GENERATED FILES
+# If your Python code generates large output files (e.g., performance logs, large CSVs)
+# Be specific and add them here.
+# Example:
+# /assignment-01/performance_log.txt
+
+# 5. EXPLICITLY INCLUDE YOUR CORE FILES
+# Ensure that your primary assignment files are NOT ignored
+!*.ipynb  # Ensures all Colab notebooks are included
+!*.docx   # Ensures all Word reports are included
