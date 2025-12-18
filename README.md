@@ -1,2 +1,6 @@
 # CSC334-PDC-Labs
-PDC course assignments
+PDC course 
+lab assignments
+lab mids exam
+lab final exam
+semester project
